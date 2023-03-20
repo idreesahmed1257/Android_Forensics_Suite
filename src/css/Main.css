@@ -1,0 +1,67 @@
+.bg-image{
+    background-image:
+    linear-gradient(to bottom, rgba(50, 68, 169, 0.52), rgba(1, 1, 33, 0.73)),
+    url(../Images/bg2.jpg);
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+}
+.navbar > a{
+    font-weight: bolder;
+    color: #DA5277;
+    text-decoration: none;
+    font-size: large;
+}
+.fileUploader{
+    text-align:center;
+    padding:3%;
+    border:thin solid black;
+    border-radius: 10px;
+    color: #DA5277;
+    border-color: #DA5277;
+    cursor: pointer;
+    overflow-x: hidden;
+    min-width: 10vw;
+}
+#imageName{
+    color:#DA5277;
+}
+.tool-button{
+    background-color: transparent;
+    border: 2px solid #DA5277;
+    border-radius: 5px;
+    color: #DA5277;
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+    width: 7vw;
+    height: 9vh;
+    font-size: 24px;
+    
+}
+.tool-button:hover{ 
+    transform: scale(1.05);
+    /* transition: 1s; */
+    cursor: pointer;
+    border: 3px solid #DA5277;
+ }
+ .snapchat{
+    filter: invert(41%) sepia(62%) saturate(740%) hue-rotate(296deg) brightness(95%) contrast(80%);
+ }
+
+ .outputBox{
+    width: 50vw;
+    height: 60vh;
+    border: 4px solid #DA5277;
+ }
+
+ .disabled{
+    opacity: 0.5;
+    pointer-events: none;
+ }

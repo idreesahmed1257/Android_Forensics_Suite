@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import BatteryChargingFullIcon from '@mui/icons-material/BatteryChargingFull';
+// import { BatteryChargingFull } from '@mui/icons-material/';
 import LaptopWindowsIcon from '@mui/icons-material/LaptopWindows';
 import MemoryIcon from '@mui/icons-material/Memory';
 import ContactsIcon from '@mui/icons-material/Contacts';

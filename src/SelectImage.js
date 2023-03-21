@@ -63,7 +63,7 @@ const SelectImage = () => {
                         <img src={logo} alt="Hello" width={300} ></img>
                         <div className={`d-flex f-column  gap-2 `}>
                             <div className='fileUploader'>
-                                <label for="inputTag" style={{ cursor: 'pointer', fontWeight: 'bold' }}>{!file ?
+                                <label htmlFor="inputTag" style={{ cursor: 'pointer', fontWeight: 'bold' }}>{!file ?
                                     "Select Image" : null}
                                     <input id="inputTag" style={{ display: 'none' }} onChange={handleFileChange} type="file" />
                                 </label>

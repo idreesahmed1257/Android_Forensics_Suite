@@ -88,7 +88,7 @@ const HomePage = () => {
                         <div className={`d-flex f-column align-center gap-2 ${already ? 'disabled' : null} `}>
                             <h1 style={{ color: '#DA5277' }}>No Device is Connected</h1>
                             <div className='fileUploader'>
-                                <label for="inputTag" style={{ cursor: 'pointer', fontWeight: 'bold' }}>
+                                <label htmlFor="inputTag" style={{ cursor: 'pointer', fontWeight: 'bold' }}>
                                     Select Output Path of Image
                                     <input id="inputTag" style={{ display: 'none' }} onChange={handleFileChange} type="file" />
                                 </label>
